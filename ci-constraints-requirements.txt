@@ -13,7 +13,7 @@ attrs==22.2.0
     #   pytest
 babel==2.11.0
     # via sphinx
-black==23.1.0
+black==24.3.0
     # via cryptography (setup.cfg)
 bleach==6.0.0
     # via readme-renderer
@@ -21,7 +21,7 @@ build==0.10.0
     # via check-manifest
 cachetools==5.3.0
     # via tox
-certifi==2022.12.7
+certifi==2023.7.22
     # via requests
 chardet==5.1.0
     # via tox
@@ -54,7 +54,7 @@ filelock==3.9.0; python_version >= "3.7"
     #   virtualenv
 hypothesis==6.67.1; python_version >= "3.7"
     # via cryptography (setup.cfg)
-idna==3.4
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -68,11 +68,11 @@ iso8601==1.1.0
     # via cryptography (setup.cfg)
 jaraco-classes==3.2.3
     # via keyring
-jinja2==3.1.2
+jinja2==3.1.4
     # via sphinx
 keyring==23.13.1
     # via twine
-markdown-it-py==2.1.0
+markdown-it-py==2.2.0
     # via rich
 markupsafe==2.1.2
     # via jinja2
@@ -114,7 +114,7 @@ pyenchant==3.2.2
     # via
     #   cryptography (setup.cfg)
     #   sphinxcontrib-spelling
-pygments==2.14.0
+pygments==2.15.0
     # via
     #   readme-renderer
     #   rich
@@ -150,7 +150,7 @@ pytz==2022.7.1
     #   cryptography (setup.cfg)
 readme-renderer==37.3
     # via twine
-requests==2.28.2; python_version >= "3.7"
+requests==2.32.2; python_version >= "3.7"
     # via
     #   requests-toolbelt
     #   sphinx
@@ -213,7 +213,7 @@ types-urllib3==1.26.25.5
     # via types-requests
 typing-extensions==4.4.0; python_version >= "3.7"
     # via mypy
-urllib3==1.26.14
+urllib3==1.26.18
     # via
     #   requests
     #   twine
@@ -228,3 +228,4 @@ zipp==3.12.1; python_version >= "3.7"
 # cffi
 # pycparser
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
