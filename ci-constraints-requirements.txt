@@ -228,3 +228,4 @@ zipp==3.12.1; python_version >= "3.7"
 # cffi
 # pycparser
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
