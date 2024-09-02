@@ -150,7 +150,7 @@ pytz==2022.7.1
     #   cryptography (setup.cfg)
 readme-renderer==37.3
     # via twine
-requests==2.28.2; python_version >= "3.7"
+requests==2.31.0; python_version >= "3.7"
     # via
     #   requests-toolbelt
     #   sphinx
@@ -228,3 +228,4 @@ zipp==3.12.1; python_version >= "3.7"
 # cffi
 # pycparser
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
